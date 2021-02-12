@@ -1,0 +1,18 @@
+FirstName: Alberto
+LastName: Casagrande
+MatriculationNumber: 201561
+AcademicYear: 2020-2021
+GitHubUrl: https://github.com/albertocasagrande99/dncs-lab.git
+Subnets:
+  HostsA:
+    RequiredAddresses: 136
+    SubnetAddress: 192.168.0.0
+    SubnetPrefixLength: 24
+  HostsB:
+    RequiredAddresses: 200
+    SubnetAddress: 192.168.1.0
+    SubnetPrefixLength: 24
+  Hub:
+    RequiredAddresses: 35
+    SubnetAddress: 192.168.2.0
+    SubnetPrefixLength: 26
